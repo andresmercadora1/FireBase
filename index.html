@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form >
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+        </p>
+        <input type="submit" value="Guardar" id="guardar" />
+    </form>
+    <button id="ver">Ver</button>
+<p class="mostrar"></p>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="js/config.js"></script>
+<script src="js/mostrar.js"></script>
+<script src="js/guardar.js"></script>
+</body>
+</html>
